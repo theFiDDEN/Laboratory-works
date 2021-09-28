@@ -37,4 +37,16 @@ def task5(a, b):
     print('Частное модулей чисел =', abs(a) / abs(b))
 
 
-task5(-3, 6)
+task1(3, 5)
+print('\n')
+
+task2(3)
+print('\n')
+
+task3(3, 5)
+print('\n')
+
+task4(3, 5)
+print('\n')
+
+task5(3, 5)
