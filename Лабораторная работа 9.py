@@ -21,7 +21,7 @@ def task2(K):
     print('Задание 2')
     arr = []
     while len(arr) < 365:
-        for x in range(1, 8):
+        for x in [1, 2, 3, 4, 5, 6, 0]:
             arr.append(x)
     print('Учитывая, что 1 января - понедельник, номер дня недели ', K, ' дня в году - ', arr[K - 1], sep='')
 
