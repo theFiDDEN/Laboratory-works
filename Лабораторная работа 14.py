@@ -99,7 +99,6 @@ def task6():
         return 0
 
     print('K =', arr.index(n) + 1)
-    print(arr[-1])
 
 
 print('\n', '-' * 300, sep='')
