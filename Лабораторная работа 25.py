@@ -50,8 +50,6 @@ def task5():
 
     read = [x for x in read if x and x.index(' ' * 5) == 0]
 
-    print(read)
-
     print('Количество абзацев в файле:', len(read))
 
 
